@@ -1,0 +1,196 @@
+/* Tag Selectors */
+em {
+  color: aqua;
+}
+
+.cta-heading,
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  color: antiquewhite;
+
+  line-height: 1.5;
+}
+
+h2 {
+  color: #52734d;
+}
+
+p {
+  font-weight: 500;
+  color: #424642;
+}
+
+/* *************************Opening Section ***************************** */
+
+/* Class Selectors */
+
+.company-logo-image {
+  width: 25rem;
+  height: 25rem;
+  margin-left: 3%;
+}
+
+.download-buttons {
+  margin: 5% 2%;
+}
+
+.div-guide {
+  font-weight: 500;
+  font-size: 1.2rem;
+  padding: 0 1.125rem 2rem;
+}
+
+.opening-div {
+  background-color: #07305d;
+  padding: 7% 15%;
+}
+
+/* *****************************Feature Section************************** */
+
+/* Class Selector */
+
+.feature-content {
+  font-family: "Gochi Hand", cursive;
+}
+
+.feature-elements {
+  text-align: center;
+  padding: 10%;
+}
+
+.feature-icons {
+  margin-bottom: 10%;
+  color: #8ab6d6;
+}
+
+.feature-icons:hover {
+  color: #07305d;
+}
+
+/* ***********************************Testimonials Section******************************* */
+
+/* Class Selectors */
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.press-images {
+  width: 11%;
+  margin: 3% 5%;
+}
+
+.testimonial-elements {
+  background-color: #7b113a;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 10%;
+  margin: 1.25rem;
+}
+
+.testimonial-text {
+  font-family: "Orelega One", cursive;
+  color: antiquewhite;
+
+  font-size: 2rem;
+}
+
+/* ********************Pricing Section*************************** */
+
+/* ID Selectors */
+
+#price-div {
+  background-color: #e7e6e1;
+  padding: 3.125rem;
+}
+
+/* Class Selectors */
+
+.buy {
+  font-family: "Original Surfer", cursive;
+
+  font-style: italic;
+  color: #413c69;
+}
+
+.card-header {
+  color: #e4fbff;
+  background-color: #1687a7;
+}
+
+.card-body {
+  background-color: #e4fbff;
+}
+
+.price {
+  font-family: "Orelega One", cursive;
+  font-size: 1rem;
+}
+
+.price-head {
+  color: #132743;
+}
+
+.price-work {
+  text-align: center;
+  padding: 3% 2%;
+}
+
+/* *******************************CTA Section****************************** */
+
+/* ID Selectors */
+
+#cta {
+  background-color: #000;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+/* ********************************Footer******************************* */
+
+/* ID Selectors */
+#footer {
+  padding: 10% 15%;
+  text-align: center;
+}
+
+/* Class Selectors */
+
+.footer-paragraph {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgrey;
+}
+
+.social-icons {
+  margin: 1.25rem 1.25rem;
+}
+
+/* ****************************Different Viewport Section********************************** */
+
+@media (max-width: 768px) {
+  .opening-div {
+    text-align: center;
+  }
+  .company-logo-image {
+    margin-left: 0;
+  }
+}
+
+/* *******************************Combined Properties****************************** */
+
+.handwriting {
+  font-family: "Prompt", sans-serif;
+}
+
+.handwriting-style {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+#cta h3 {
+  color: #fff;
+}

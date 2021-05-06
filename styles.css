@@ -177,6 +177,8 @@ p {
   }
   .company-logo-image {
     margin-left: 0;
+    height: 15rem;
+    width: 15rem;
   }
 }
 
